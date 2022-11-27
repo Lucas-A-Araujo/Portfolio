@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content {
+    padding-top: 100px;
+}
+
+nav > a {
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin: 5vh 1vw 5vh 1vw;
+}
+
+img + p {
+    visibility: hidden;
+    position: absolute;
+}
+
+.menu {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}

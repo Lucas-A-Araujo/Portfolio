@@ -1,0 +1,29 @@
+.menu {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#presentation {
+    background: linear-gradient(63.13deg, #0D212D 91.04%, #26619c 11.05%);
+    height: 100vh;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    position: relative;
+}
+.info > h1 {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+.info > .links {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
